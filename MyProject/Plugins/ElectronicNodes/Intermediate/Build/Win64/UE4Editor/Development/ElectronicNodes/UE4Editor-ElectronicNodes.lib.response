@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ElectronicNodes.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\GP_03\EpicJam\MyProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"F:\GP_03\EpicJam\MyProject\Plugins\ElectronicNodes\Intermediate\Build\Win64\UE4Editor\Development\ElectronicNodes\Module.ElectronicNodes.cpp.obj"
+"F:\GP_03\EpicJam\MyProject\Plugins\ElectronicNodes\Intermediate\Build\Win64\UE4Editor\Development\ElectronicNodes\Module.ElectronicNodes.gen.cpp.obj"
+"F:\GP_03\EpicJam\MyProject\Plugins\ElectronicNodes\Intermediate\Build\Win64\UE4Editor\Development\ElectronicNodes\Default.rc2.res"
+/OUT:"F:\GP_03\EpicJam\MyProject\Plugins\ElectronicNodes\Intermediate\Build\Win64\UE4Editor\Development\ElectronicNodes\UE4Editor-ElectronicNodes.lib"
+/INCLUDE:IMPLEMENT_MODULE_ElectronicNodes
