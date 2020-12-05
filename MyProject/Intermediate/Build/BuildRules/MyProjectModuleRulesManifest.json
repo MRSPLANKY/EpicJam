@@ -1,0 +1,7 @@
+{
+	"SourceFiles": [
+		"F:\\GP_03\\EpicJam\\MyProject\\Plugins\\ElectronicNodes\\Source\\ElectronicNodes\\ElectronicNodes.Build.cs",
+		"F:\\GP_03\\EpicJam\\MyProject\\Plugins\\NinjaCharacter\\Source\\NinjaCharacter\\NinjaCharacter.Build.cs"
+	],
+	"EngineVersion": "4.25.4"
+}

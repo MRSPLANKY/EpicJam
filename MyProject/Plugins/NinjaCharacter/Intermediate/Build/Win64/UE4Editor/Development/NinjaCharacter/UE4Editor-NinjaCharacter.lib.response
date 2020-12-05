@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-NinjaCharacter.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\GP_03\EpicJam\MyProject\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"F:\GP_03\EpicJam\MyProject\Plugins\NinjaCharacter\Intermediate\Build\Win64\UE4Editor\Development\NinjaCharacter\Module.NinjaCharacter.cpp.obj"
+"F:\GP_03\EpicJam\MyProject\Plugins\NinjaCharacter\Intermediate\Build\Win64\UE4Editor\Development\NinjaCharacter\Module.NinjaCharacter.gen.cpp.obj"
+"F:\GP_03\EpicJam\MyProject\Plugins\NinjaCharacter\Intermediate\Build\Win64\UE4Editor\Development\NinjaCharacter\Default.rc2.res"
+/OUT:"F:\GP_03\EpicJam\MyProject\Plugins\NinjaCharacter\Intermediate\Build\Win64\UE4Editor\Development\NinjaCharacter\UE4Editor-NinjaCharacter.lib"
+/INCLUDE:IMPLEMENT_MODULE_NinjaCharacter

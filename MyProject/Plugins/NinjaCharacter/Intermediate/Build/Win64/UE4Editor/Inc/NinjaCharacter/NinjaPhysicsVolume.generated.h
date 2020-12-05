@@ -15,8 +15,8 @@ struct FVector;
 #endif
 #define NINJACHARACTER_NinjaPhysicsVolume_generated_h
 
-#define HostProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_SPARSE_DATA
-#define HostProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_RPC_WRAPPERS \
+#define MyProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_SPARSE_DATA
+#define MyProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execSetGravityScale); \
 	DECLARE_FUNCTION(execGetGravityScale); \
@@ -37,7 +37,7 @@ struct FVector;
 	DECLARE_FUNCTION(execGetGravity);
 
 
-#define HostProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+#define MyProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execSetGravityScale); \
 	DECLARE_FUNCTION(execGetGravityScale); \
@@ -58,7 +58,7 @@ struct FVector;
 	DECLARE_FUNCTION(execGetGravity);
 
 
-#define HostProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_INCLASS_NO_PURE_DECLS \
+#define MyProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesANinjaPhysicsVolume(); \
 	friend struct Z_Construct_UClass_ANinjaPhysicsVolume_Statics; \
@@ -67,7 +67,7 @@ public: \
 	DECLARE_SERIALIZER(ANinjaPhysicsVolume)
 
 
-#define HostProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_INCLASS \
+#define MyProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_INCLASS \
 private: \
 	static void StaticRegisterNativesANinjaPhysicsVolume(); \
 	friend struct Z_Construct_UClass_ANinjaPhysicsVolume_Statics; \
@@ -76,7 +76,7 @@ public: \
 	DECLARE_SERIALIZER(ANinjaPhysicsVolume)
 
 
-#define HostProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_STANDARD_CONSTRUCTORS \
+#define MyProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ANinjaPhysicsVolume(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ANinjaPhysicsVolume) \
@@ -89,7 +89,7 @@ private: \
 public:
 
 
-#define HostProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_ENHANCED_CONSTRUCTORS \
+#define MyProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ANinjaPhysicsVolume(ANinjaPhysicsVolume&&); \
@@ -100,7 +100,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ANinjaPhysicsVolume); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ANinjaPhysicsVolume)
 
 
-#define HostProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_PRIVATE_PROPERTY_OFFSET \
+#define MyProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__TrackedActors() { return STRUCT_OFFSET(ANinjaPhysicsVolume, TrackedActors); } \
 	FORCEINLINE static uint32 __PPO__TrackedNinjas() { return STRUCT_OFFSET(ANinjaPhysicsVolume, TrackedNinjas); } \
 	FORCEINLINE static uint32 __PPO__GravityDirectionMode() { return STRUCT_OFFSET(ANinjaPhysicsVolume, GravityDirectionMode); } \
@@ -110,27 +110,27 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ANinjaPhysicsVolume); \
 	FORCEINLINE static uint32 __PPO__GravityScale() { return STRUCT_OFFSET(ANinjaPhysicsVolume, GravityScale); }
 
 
-#define HostProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_16_PROLOG
-#define HostProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_GENERATED_BODY_LEGACY \
+#define MyProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_16_PROLOG
+#define MyProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HostProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_PRIVATE_PROPERTY_OFFSET \
-	HostProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_SPARSE_DATA \
-	HostProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_RPC_WRAPPERS \
-	HostProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_INCLASS \
-	HostProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_STANDARD_CONSTRUCTORS \
+	MyProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_PRIVATE_PROPERTY_OFFSET \
+	MyProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_SPARSE_DATA \
+	MyProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_RPC_WRAPPERS \
+	MyProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_INCLASS \
+	MyProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define HostProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_GENERATED_BODY \
+#define MyProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HostProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_PRIVATE_PROPERTY_OFFSET \
-	HostProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_SPARSE_DATA \
-	HostProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
-	HostProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_INCLASS_NO_PURE_DECLS \
-	HostProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_ENHANCED_CONSTRUCTORS \
+	MyProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_PRIVATE_PROPERTY_OFFSET \
+	MyProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_SPARSE_DATA \
+	MyProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	MyProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_INCLASS_NO_PURE_DECLS \
+	MyProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -138,7 +138,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> NINJACHARACTER_API UClass* StaticClass<class ANinjaPhysicsVolume>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID HostProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h
+#define CURRENT_FILE_ID MyProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaPhysicsVolume_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

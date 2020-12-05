@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define NINJACHARACTER_NinjaTypes_generated_h
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID HostProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaTypes_h
+#define CURRENT_FILE_ID MyProject_Plugins_NinjaCharacter_Source_NinjaCharacter_Public_NinjaTypes_h
 
 
 #define FOREACH_ENUM_ENINJAGRAVITYDIRECTIONMODE(op) \
