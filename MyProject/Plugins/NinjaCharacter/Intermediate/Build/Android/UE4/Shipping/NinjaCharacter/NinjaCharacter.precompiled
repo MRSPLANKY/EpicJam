@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.NinjaCharacter.cppa7.o",
+		"Module.NinjaCharacter.cppa8.o",
+		"Module.NinjaCharacter.gen.cppa7.o",
+		"Module.NinjaCharacter.gen.cppa8.o"
+	]
+}

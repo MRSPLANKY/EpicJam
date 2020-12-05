@@ -1,0 +1,26 @@
+{
+	"FileVersion": 3,
+	"Version": 2,
+	"VersionName": "1.03.25",
+	"FriendlyName": "Ninja Character",
+	"Description": "A controllable character that supports any gravity direction! And other gravity-related goodies.",
+	"Category": "Gameplay",
+	"CreatedBy": "Javier 'Xaklse' Osset",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/d91461c6f5544d118198d6acaddb48e8",
+	"SupportURL": "",
+	"EngineVersion": "4.25.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"SupportedPrograms": [
+		"UnrealHeaderTool"
+	],
+	"Modules": [
+		{
+			"Name": "NinjaCharacter",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
