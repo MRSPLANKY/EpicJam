@@ -1,0 +1,24 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NinjaCharacter.cpp.obj": [
+			"NinjaCharacter.cpp.obj",
+			"NinjaCharacterMovementComponent.cpp.obj",
+			"NinjaCharacterPlugin.cpp.obj",
+			"NinjaPhysicsVolume.cpp.obj",
+			"NinjaPhysicsVolumeSpline.cpp.obj",
+			"NinjaPlayerCameraManager.cpp.obj",
+			"NinjaProjectileMovementComponent.cpp.obj"
+		],
+		"Module.NinjaCharacter.gen.cpp.obj": [
+			"NinjaCharacter.gen.cpp.obj",
+			"NinjaCharacter.init.gen.cpp.obj",
+			"NinjaCharacterMovementComponent.gen.cpp.obj",
+			"NinjaPhysicsVolume.gen.cpp.obj",
+			"NinjaPhysicsVolumeSpline.gen.cpp.obj",
+			"NinjaPlayerCameraManager.gen.cpp.obj",
+			"NinjaProjectileMovementComponent.gen.cpp.obj",
+			"NinjaTypes.gen.cpp.obj"
+		]
+	}
+}
