@@ -72,3 +72,5 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+MyProject/Saved/Config/CrashReportClient/UE4CC-Windows-18EECD22465EE8A789F5A3A2DD2F031B/CrashReportClient.ini
+MyProject/Saved/Logs/MyProject-backup-2020.12.05-11.16.21.log
